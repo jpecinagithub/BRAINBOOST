@@ -1,7 +1,7 @@
 {
   "name": "Mi Lumosity Web",
   "short_name": "MiLumosity",
-  "start_url": "./index.html",
+  "start_url": "https://jpecinagithub.github.io/BRAINBOOST/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0088ff",
