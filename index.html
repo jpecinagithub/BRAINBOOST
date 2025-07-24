@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BrainBoost - Aplicación de entrenamiento cerebral con 9 juegos para mejorar memoria, atención, velocidad de procesamiento y flexibilidad mental">
+    <meta name="keywords" content="entrenamiento cerebral, juegos mentales, memoria, atención, velocidad mental, flexibilidad cognitiva">
+    <meta name="author" content="BrainBoost">
+    <title>BrainBoost - Entrenamiento Cerebral</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>BrainBoost</h1>
+            <p class="tagline">Entrena tu cerebro. Mejora tu mente.</p>
+            <div class="hero-cta">
+                <a href="#games-section" class="cta-button">Comenzar Entrenamiento</a>
+            </div>
+        </div>
+        <div class="brain-animation">
+            <div class="brain-icon">
+                <i class="fas fa-brain"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="intro-section">
+            <div class="intro-text">
+                <h2>Potencia tus habilidades cognitivas</h2>
+                <p>BrainBoost ofrece juegos científicamente diseñados para mejorar tu memoria, atención, velocidad de procesamiento, flexibilidad mental y más. ¡Entrena tu cerebro de forma divertida!</p>
+            </div>
+            <div class="benefits">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Velocidad</h3>
+                    <p>Mejora tu tiempo de reacción y velocidad de procesamiento mental.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-memory"></i></div>
+                    <h3>Memoria</h3>
+                    <p>Fortalece tu memoria a corto y largo plazo.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Atención</h3>
+                    <p>Desarrolla tu capacidad de concentración y atención selectiva.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Flexibilidad</h3>
+                    <p>Entrena tu adaptabilidad mental y resolución de problemas.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="games-section" class="games-section">
+            <h2>Nuestros Juegos</h2>
+            <p class="section-description">Selecciona un juego para comenzar tu entrenamiento cerebral</p>
+            
+            <div class="games-grid">
+                <div class="game-card" data-game="memoryMatrix">
+                    <div class="game-icon"><i class="fas fa-th"></i></div>
+                    <h3>Memory Matrix</h3>
+                    <p>Memoriza patrones visuales en una cuadrícula</p>
+                    <button class="play-btn" data-game="memoryMatrix">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="speedMatch">
+                    <div class="game-icon"><i class="fas fa-equals"></i></div>
+                    <h3>Speed Match</h3>
+                    <p>Compara símbolos rápidamente</p>
+                    <button class="play-btn" data-game="speedMatch">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="colorMatch">
+                    <div class="game-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Color Match</h3>
+                    <p>Identifica colores o palabras según la instrucción</p>
+                    <button class="play-btn" data-game="colorMatch">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="wordBubbles">
+                    <div class="game-icon"><i class="fas fa-comment-dots"></i></div>
+                    <h3>Word Bubbles</h3>
+                    <p>Forma palabras que empiecen con una letra</p>
+                    <button class="play-btn" data-game="wordBubbles">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="chalkboardChallenge">
+                    <div class="game-icon"><i class="fas fa-calculator"></i></div>
+                    <h3>Chalkboard Challenge</h3>
+                    <p>Resuelve operaciones matemáticas rápidamente</p>
+                    <button class="play-btn" data-game="chalkboardChallenge">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="lostInMigration">
+                    <div class="game-icon"><i class="fas fa-arrows-alt"></i></div>
+                    <h3>Lost in Migration</h3>
+                    <p>Identifica la dirección correcta entre distracciones</p>
+                    <button class="play-btn" data-game="lostInMigration">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="brainShift">
+                    <div class="game-icon"><i class="fas fa-random"></i></div>
+                    <h3>Brain Shift</h3>
+                    <p>Alterna entre clasificar números y formas</p>
+                    <button class="play-btn" data-game="brainShift">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="digitDetective">
+                    <div class="game-icon"><i class="fas fa-search-plus"></i></div>
+                    <h3>Digit Detective</h3>
+                    <p>Memoriza y reproduce secuencias de números</p>
+                    <button class="play-btn" data-game="digitDetective">Jugar</button>
+                </div>
+                
+                <div class="game-card" data-game="spatialSpeed">
+                    <div class="game-icon"><i class="fas fa-object-group"></i></div>
+                    <h3>Spatial Speed</h3>
+                    <p>Encuentra la imagen diferente rápidamente</p>
+                    <button class="play-btn" data-game="spatialSpeed">Jugar</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="game-interface hidden">
+            <div class="game-header">
+                <button id="back-to-menu" class="back-btn"><i class="fas fa-arrow-left"></i> Volver al menú</button>
+                <h2 id="current-game-title">Nombre del Juego</h2>
+            </div>
+            
+            <main id="game-area">
+                <div class="welcome-screen">
+                    <h2>¡Bienvenido al entrenamiento cerebral!</h2>
+                    <p>Selecciona un juego del menú para comenzar a entrenar tu cerebro.</p>
+                </div>
+            </main>
+            
+            <aside id="results-panel">
+                <h3>Resultados</h3>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="result-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="result-label">Puntuación</div>
+                        <div id="score-display" class="result-value">0</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-icon"><i class="fas fa-clock"></i></div>
+                        <div class="result-label">Tiempo</div>
+                        <div id="time-display" class="result-value">0s</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="result-label">Nivel</div>
+                        <div id="level-display" class="result-value">1</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-icon"><i class="fas fa-tasks"></i></div>
+                        <div class="result-label">Progreso</div>
+                        <div id="progress-display" class="result-value">-</div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">BrainBoost</div>
+            <p>© 2025 BrainBoost. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+    <script src="memoryMatrix.js"></script>
+    <script src="speedMatch.js"></script>
+    <script src="colorMatch.js"></script>
+    <script src="wordBubbles.js"></script>
+    <script src="chalkboardChallenge.js"></script>
+    <script src="lostInMigration.js"></script>
+    <script src="brainShift.js"></script>
+    <script src="digitDetective.js"></script>
+    <script src="spatialSpeed.js"></script>
+</body>
+</html>
